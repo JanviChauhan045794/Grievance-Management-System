@@ -96,9 +96,9 @@ To my mentor and guide, **Dr. Hiren Joshi**, who constantly encouraged me and pr
 Hi! I’m **Janvi Chauhan**, an MSc CS student with a passion for building useful, real-world solutions using code.
 
 Feel free to connect or reach out!
-📧 `janvi@email.com` *(Add yours)*
+📧 `janvi.chauhan4599@gmail.com` 
 📍 Gujarat University, Ahmedabad
-🔗 \[LinkedIn/GitHub/etc. if you'd like to add it here]
+🔗 www.linkedin.com/in/janvi-chauhan145
 
 ---
 
