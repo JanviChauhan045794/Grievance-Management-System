@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Rest of your CSS */
+
+.sidebar {
+    width: 250px;
+    height: calc(100% - 120px); /* Adjusted to accommodate header and some padding */
+    background-color: #333;
+    position: fixed;
+    top: 120px; /* Adjusted to accommodate header */
+    left: -250px;
+    transition: left 0.3s ease;
+    z-index: 999; /* Ensure sidebar appears above content */
+}
+
+.dropdown-arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid black; /* Adjust color and size as needed */
+    display: inline-block;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.sidebar-toggle {
+    position: fixed;
+    left: 10px;
+    top: 60px; /* Adjusted to place it below header */
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure toggle button appears above sidebar */
+}
+
+.sidebar-toggle:hover {
+    background-color: #555;
+}
+
+.dropdown-menu {
+    display: none;
+    padding-left: 20px; /* Adjust as needed */
+}
+
+.dropdown-menu li {
+    padding: 5px 0;
+}
+
+.dropdown-arrow {
+    margin-left: 5px;
+}
+
+/* Show dropdown menu when hovering over dropdown */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+/* Rest of your CSS */
+
+
+.admin-profile {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-profile h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    padding-top: 80px; /* Adjusted to accommodate header */
+}
+
+.content section {
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    margin-bottom: 15px;
+}

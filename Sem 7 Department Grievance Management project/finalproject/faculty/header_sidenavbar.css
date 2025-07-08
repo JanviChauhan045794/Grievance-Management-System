@@ -1,0 +1,117 @@
+/* Reset and basic styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Custom style for the Faculty Dashboard title */
+.dashboard-title {
+    font-size: 24px;  /* Adjust the font size */
+    font-weight: bold;
+    color: #fff;  /* Ensure text contrasts with the background */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000; /* Increased to ensure it stays on top */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;  /* Center the title */
+    align-items: center;
+    height: 70px; /* Fixed height */
+}
+
+/* Sidebar toggle styling */
+.sidebar-toggle {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 2001;  /* Higher than the header to ensure it's clickable */
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.sidebar-toggle:hover {
+    background-color: #555;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: left 0.3s ease;
+    z-index: 1500; /* Below header but above content */
+    overflow-y: auto;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+/* Admin profile styling */
+.admin-profile {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-profile h3 {
+    margin-bottom: 5px;
+    color: #fff; /* White text color */
+}
+
+/* Sidebar navigation styling */
+.sidebar-nav {
+    padding: 20px 0;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-nav a:hover {
+    background-color: #555;
+}
+
+/* Content padding to avoid overlap with the fixed header */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    padding-top: 90px;  /* Ensure content starts below the header */
+}
+
+.content section {
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    margin-bottom: 15px;
+}

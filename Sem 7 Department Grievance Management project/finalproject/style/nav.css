@@ -1,0 +1,35 @@
+/* navbar */
+.navbar {
+    background: linear-gradient(to right, #333, #555); /* Gradient background */
+ 
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between; /* Items spaced evenly */
+}
+
+.navbar-left,
+.navbar-right {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-right {
+    margin-left: auto; /* Push logout and edit profile buttons to the right */
+}
+
+.navbar a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #666; /* Dark grey hover color */
+    color: #fff; /* Hover text color */
+}

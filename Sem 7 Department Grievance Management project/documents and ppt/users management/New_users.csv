@@ -1,0 +1,11 @@
+role,firstname,lastname,email,password,enrollment_id/post,phone,class,semester,batch
+student,Trupal,Lathiya ,trupal@gmail.com,Password123,2.02129E+11,6445738202,Msc(cs),7,1
+student,Devansh,Makwana,devansh@gmail.com,Password123,2.02129E+11,6475823942,Msc(cs),7,1
+student ,Twinkle,Manke,twinkle@gmail.com,Password123,2.02129E+11,5463827542,Msc(cs),7,1
+student ,Tirth,Mehta,tirth@gmail.com,Password123,2.02129E+11,5463729102,Msc(cs),7,1
+student,Hem,Shah,hem@gmail.com,Password123,2.02129E+11,6574820182,Msc(cs),7,1
+student,Kalpi,Shah,kalpi@gmail.com,Password123,2.02129E+11,5473920234,Msc(cs),7,1
+faculty,Dr. Maitry,Jhaveri,drmaitry_javeri@gmail.com,Professor,,,,,
+faculty,Miss. Saloni,Shah,misssaloni_shah@gmail.com,Teaching Assistant,,,,,
+faculty,Miss. Sneha,Arun,misssneha_arun@gmail.com,Teaching Assistant,,,,,
+student,Janvi,Chauhan,janvi.chauhan4599@gmail.com,Password123,234567854,5473920236,Msc(cs),7,1

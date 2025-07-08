@@ -1,0 +1,11 @@
+role,firstname,lastname,email,password,enrollment_id/post,phone,class,semester,batch
+student,John,Doe,johndoe@example.com,Password123,ENR001,1234567890,CS101,5,2023
+student,Jane,Smith,janesmith@example.com,Password123,ENR002,0987654321,CS102,4,2023
+faculty,Michael,Johnson,michaelj@example.com,Password123,Professor,,,,
+faculty,Sarah,Brown,sarahb@example.com,Password123,Lecturer,,,,
+student,Alice,White,alicew@example.com,Password123,ENR003,2345678901,CS103,3,2023
+faculty,David,Green,davidg@example.com,Password123,Senior Lecturer,,,,
+student,Bob,Davis,bobd@example.com,Password123,ENR004,3456789012,CS104,6,2022
+faculty,Emily,Moore,emilym@example.com,Password123,Head of Department,,,,
+student,Chris,Miller,chrism@example.com,Password123,ENR005,4567890123,CS105,2,2022
+student,Sophia,Taylor,sophiat@example.com,Password123,ENR006,5678901234,CS106,1,2021
